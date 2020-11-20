@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Otaku Rant';
+	src: url(../../assets/fonts/OtakuRant.woff2) format('woff2'),
+	url(../../assets/fonts/OtakuRant.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

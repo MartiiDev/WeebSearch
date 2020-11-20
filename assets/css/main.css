@@ -1,0 +1,108 @@
+a:focus, button:focus, input:focus, textarea:focus {
+  outline: none!important;
+}
+
+.br { 
+    display: block; 
+    margin-bottom: 0.1em; 
+}
+
+#type-menu strong a {
+  text-decoration: none;
+  color: white;
+}
+
+#type-menu strong a.active {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+.masthead {
+  background: none !important;
+}
+
+.text-white {
+  word-wrap: break-word;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #212121;
+  color: #757575;
+  margin-top: 50px;
+}
+
+.result-item {
+  /*padding: 10px;*/
+  position: relative;
+}
+
+.result-item div.result-container {
+  text-align: left;
+  font: normal 14px sans-serif;
+  background-color: #f4f8fa;
+  border: 1px solid #dbe3e7;
+  border-radius: 5px;
+  padding-right: 50px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.result-item a.result-img {
+  float: left;
+  padding: 19px 15px;
+}
+
+.result-item p.result-info {
+  /*white-space: nowrap;*/
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 19px 0 19px 0;
+}
+
+.result-item p.result-info a {
+  color: #5d6569;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.result-item p.result-info span {
+  display: block;
+  font-size: 11px;
+  color: #808d93;
+  padding-top: 4px;
+}
+
+.result-item a.open-website {
+  border-radius: 50%;
+  color: #fff;
+  font-size: 15px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.result-item span.result-type {
+  border-radius: 15px;
+  color: #fff;
+  font-size: 15px;
+  padding: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  position: absolute;
+  top: -14px;
+  left: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.form-control.form-control-lg.autocomplete {
+  border-radius: 4px 0 0 4px;
+}
+
